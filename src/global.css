@@ -1,0 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Manrope !important;
+  transition: all .4s;
+  scroll-behavior: smooth;
+}
