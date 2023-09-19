@@ -5,7 +5,7 @@ import Socials from "../components/Socials";
 
 const Hero = () => {
   return (
-    <Center py={{lg: 10, md : 5, sm : 5, base : 4}} px={5}>
+    <Center py={{lg: 18, md : 20, sm : 5, base : 4}} px={5}>
       <Flex justifyContent={"center"} alignItems={"center"}>
         <Box textAlign={"center"}>
           <Text fontSize={{lg : 12,md : 12, sm : 10, base : 8}}>

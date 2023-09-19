@@ -8,11 +8,12 @@ const Header = () => {
     translate: "-180px",
   });
   return (
-    <Box>
+    <Box py={4}>
       <Flex alignItems={"center"} justifyContent={"space-around"}>
         <Image
           src="logo.jpg"
-          width={{ lg: "8%", md: "15%", sm: "15%", base: "20%" }}
+          borderRadius={100}
+          width={{ lg: "8%", md: "10%", sm: "15%", base: "15%" }}
         />
         <Box display={{ lg: "block", md: "none", sm: "none", base: "none" }}>
           <NavList />
@@ -44,13 +45,13 @@ const Header = () => {
         <Box
           fontSize={12}
           transform={`translate(${trans.translate})`}
-          position={"absolute"}
-          lineHeight={10}
+          position={"fixed"}
+          lineHeight={'70px'}
           left={0}
           top={0}
-          p={5}
-          bg={"telegram.50"}
-          zIndex={999}
+          p={7}
+          bg={"telegram.800"}
+          zIndex={999999999}
           borderRightRadius={20}
         >
           <IconButton
